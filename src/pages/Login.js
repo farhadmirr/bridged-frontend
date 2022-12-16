@@ -2,7 +2,7 @@ import { useRef, useState, useEffect, Buffer } from 'react';
 import useAuth from '../hooks/useAuth';
 import axios from '../api/axios';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { generateOtpData, startsWith, validateOtpData } from "../utility/utils"
+import { startsWith } from "../utility/utils"
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input } from 'antd';
 
